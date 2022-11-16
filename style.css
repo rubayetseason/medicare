@@ -69,3 +69,37 @@ textarea {
 .header-section {
   padding: 0 30px;
 }
+hr{
+  border: 2px solid grey;
+}
+.product-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.second-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pr-img{
+  width: 200px;
+  height: 200px;
+}
+.product {
+  border: 2px solid #14a44d;
+  border-radius: 30px;
+  padding: 20px;
+}
+.info-container{
+  text-align: center;
+}
+.title-name{
+  font-weight: 700;
+}
+.price-color{
+  color: #14a44d;
+  margin: 0;
+  padding: 0;
+}
