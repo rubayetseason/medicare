@@ -69,37 +69,67 @@ textarea {
 .header-section {
   padding: 0 30px;
 }
-hr{
+hr {
   border: 2px solid grey;
 }
-.product-container{
+.product-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
 }
-.second-container{
+.second-container {
+  margin-top: 80px;
+  margin-bottom: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.pr-img{
-  width: 200px;
-  height: 200px;
+.pr-img {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
 }
 .product {
   border: 2px solid #14a44d;
   border-radius: 30px;
   padding: 20px;
 }
-.info-container{
+.info-container {
   text-align: center;
 }
-.title-name{
+.title-name {
   font-weight: 700;
 }
-.price-color{
+.price-color {
   color: #14a44d;
   margin: 0;
   padding: 0;
+}
+.product-type,
+.product-name {
+  margin: 5px 0;
+  padding: 0;
+}
+
+.btn-section {
+  margin-bottom: 80px;
+}
+
+.btn {
+  background-color: white;
+  outline: none;
+  border: 2px solid #14a44d;
+  border-radius: 10px;
+  color: #14a44d;
+  font-weight: 700;
+  padding: 8px 20px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.btn-div {
+  text-align: center;
+  margin: 15px auto;
 }
