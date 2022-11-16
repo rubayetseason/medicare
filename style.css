@@ -44,3 +44,28 @@ input,
 textarea {
   background-color: white;
 }
+
+.user {
+  width: 40px;
+}
+.navbar {
+  font-weight: 600;
+}
+#about {
+  color: #14a44d;
+}
+#other {
+  color: lightgray;
+}
+.navbar-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-section {
+  padding: 0 30px;
+}
